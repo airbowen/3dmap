@@ -1,0 +1,34 @@
+.floorList {
+  position: fixed;
+  right: 10px;
+  top: 100px;
+  background: rgb(154, 154, 154);
+  li {
+    background-color: rgb(218, 218, 218);
+    cursor: pointer;
+    padding: 10px 12px;
+    &:hover,
+    &.active {
+      background-color: rgb(255, 127, 163);
+      color: #fff;
+    }
+  }
+}
+.threeMain {
+  width: 100%;
+  height: calc(100vh - 107px;);
+  position: relative;
+  canvas {
+    width: 100%;
+    height: 100%;
+  }
+  .css2dRender {
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    user-select: none;
+    height: 100%;
+    width: 100%;
+  }
+}
